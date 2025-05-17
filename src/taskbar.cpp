@@ -2843,7 +2843,7 @@ paint_systray(AppClient *client, cairo_t *cr, Container *container) {
     paint_hoverable_button_background(client, cr, container);
     
     draw_text(client, 10 * config->dpi, config->icons, EXPAND(config->color_taskbar_button_icons), "\uE971", container->real_bounds,
-              -5, -1, container->real_bounds.h / 2 - (10 * config->dpi) / 2);
+              -5, -1, container->real_bounds.h / 2 - (10 * config->dpi) / 1.5);
 }
 
 static void
